@@ -1,6 +1,6 @@
 # Sorting_algos_visualizer
 
-[Link]()
+[Link](https://deepakranwa.github.io/Sorting-Algorithms-Visualizer/)
 
 Created a simple visualizer for different sorting techniques. For eg.
 1. Selection sort<br/>
