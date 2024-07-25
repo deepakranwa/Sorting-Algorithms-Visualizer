@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Sorting_algos_visualizer</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="array-inputs">
+          <p>ARRAY SIZE</p>
+          <input
+            id="a_size"
+            type="range"
+            min="10"
+            max="150"
+            step="5"
+            value="80"
+          />
+          <p>SPEED</p>
+          <input id="a_speed" type="range" min="1" max="5" step="1" value="4" />
+          <br />
+          <br />
+          <button id="a_generate">NEW ARRAY</button>
+        </div>
+
+        <div class="header_right">
+          <p class="nav-heading">SORTING_ALGOS_VISUALIZER</p>
+          <div class="algos">
+            <button style="margin-right: 16px">SELECTION</button>
+            <button style="margin-right: 16px">BUBBLE</button>
+            <button style="margin-right: 16px">INSERTION</button>
+            <button style="margin-right: 16px">MERGE</button>
+            <button style="margin-right: 16px">QUICK</button>
+            <button>HEAP</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div></div>
+
+      <div id="array_container"></div>
+
+      <div></div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="made_by">
+          <p>Made by: Harsh Arya</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/visualizations.js"></script>
+    <script src="./scripts/Selections_sort.js"></script>
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/Insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/Quick_sort.js"></script>
+  </body>
+</html>
